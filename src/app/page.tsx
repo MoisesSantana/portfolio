@@ -1,5 +1,11 @@
+import { Header } from './components/header';
+import { Hero } from './components/hero';
+
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24"></main>
+    <div className="flex flex-col min-h-screen bg-gray-200">
+      <Header />
+      <Hero />
+    </div>
   );
 }
